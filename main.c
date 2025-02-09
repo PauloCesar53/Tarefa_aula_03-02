@@ -1,8 +1,10 @@
 /*
  *                    Funcionamento do programa 
- *O programa mostra números de 0 a 9 na matriz de led 5x5, sendo o usuário capaz
- * de incrementar um número ao apertar o botão A e decrementar um numéro ao apertar
- *  o botão B da BitDogLab, como o led vermelho RGB (gpio 13) piscando 5 vezes por segundo.
+ *O programa mostra números de 0 a 9 na matriz de lEDS 5x5, a depender da entrada de um desses 
+ números no serial monitor,ao apertar o botão A o lED verde muda de estado, com a informação 
+ sendo printada no serial monitor e no display da BitDogLab, o Botão B tem comportamento 
+ similar ao botão A mas para funcionamento do led Azul. Os caracteres inseridos via serial monitor 
+ aparecem no Display 
  *                    Tratamento de deboucing com interrupção 
  * A ativação dos botões A e B são feitas através de uma rotina de interrupção, sendo
  * implementada condição para tratar o efeito boucing na rotina.
